@@ -1,0 +1,423 @@
+@media all and (max-width: 1300px) {
+	#navbar {
+	    padding-left: 5%;
+	}
+	.menu-content {
+	    padding-right: 5%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#menu_top {
+		margin-top: 0px;
+		right: inherit;
+		position: relative;
+	}
+	.menu-content.open {
+	    background: #00294e;
+	    padding-right: 0px;
+	    width: 25%;
+	    top: 0;
+	    left: 0;
+	    position: fixed;
+	}
+	.img_slide iframe {
+		height: 100%;
+	}
+	.img_slide {
+	    height: 432px;
+	}
+	#navbar {
+		z-index: 9999;
+		height: 100px;
+		position: fixed;
+	}
+	.showhide {
+		 transition: all 0.5s;
+	}
+	#menu_top {
+		width: 0;
+	}
+	.scrollUp .menu-content.open {
+	    transform: translateX(-100%);
+	}
+	#background_page {
+		padding-top: 170px;
+	}
+	.left_contact {
+		width: 60%;
+		padding-right: 50px;
+	}
+	.right_contact {
+		width: 40%;
+	}
+	.scrollUp {
+	  transform: translateY(-100px);
+	}
+	.boxtintuc {
+	    width: 50%;
+	    float: left;
+	}
+	.menu-content {
+	    height: 100vh;
+	    overflow-y: scroll;
+	}
+	.khungsp_phai {
+	    width: 100%;
+	    padding-left: 0px;
+	    float: left;
+	}
+	#sidebar_sp {
+		display: none;
+	}
+	.menu > ul > li > a {
+		margin-right: 0;
+	}
+	.menu__sub-menu {
+	    position: relative;
+	    top: 0;
+	    display: none;
+	}
+	.menu__item:first-child > a {
+		margin-left: 18px;
+	}
+	.can_menu {
+		margin-top: 5px;
+	}
+	ul.tabs li {
+		padding:  0 35px;
+	}
+	.tab_content {
+		width: 700px;
+	}
+	.off_page {
+	    padding-top: 70px;
+	    width: 48%;
+	}
+	.fot_1 {
+	    padding-right: 150px;
+	    width: 60%;
+	    float: left;
+	}
+	.fot_2 {
+	    padding-right: 0px;
+	    width: 40%;
+	    float: left;
+	}
+	.fot_3 {
+		display: none;
+	}
+	.end_left {
+		float: left;
+		width: 50%;
+	}
+	.right_end {
+		width: 50%;
+		float: left;
+	}
+	.menu-content {
+		float: left;
+		padding-right: 0;
+	}
+}
+
+@media all and (max-width: 800px) {
+	ul.tabs li {
+	    padding: 0 40px;
+	}
+
+	.tour_box {
+	    height: 230px;
+	}
+	.text_tour h5 {
+		width: 100%;
+		font-size: 16px;
+	}
+	.so_tour {
+	    width: 20%;
+	    position: absolute;
+	    top: 0;
+	    text-align: left;
+	}
+	.title_hotel {
+		width: 100%;
+	    text-align: justify;
+	}
+	.video_gl iframe {
+	    top: -180px !important;
+	}
+	.sao_view {
+	    float: left;
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+	.sale_off {
+		font-size: 50px;
+	}
+	.reg_mail img {
+	    top: 5px;
+	    display: none;
+	}
+	form.reg_mail_to {
+	    width: 100%;
+	    float: left;
+	    padding-left: 0px;
+	}
+	.left_contact {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	#background_page h4 {
+	    margin-top: 30px;
+	}
+	.reg_mail {
+	    width: 50%;
+	}
+	.right_contact {
+	    width: 100%;
+	    padding: 0;
+	    padding-bottom: 50px;
+	}
+	.last_box h4 {
+		height: 40px;
+	}
+	.fot_1 {
+	    padding-right: 50px;
+	    width: 50%;
+	}
+	.boxtintuc {
+		width: 100%
+	}
+	.cat_title {
+		font-size: 16px;
+	}
+	.khung_left_tour ul.tabs li {
+	    padding: 0;
+	    margin: 0 15px;
+	}
+	.fot_2 {
+		width: 50%;
+	}
+	.menu-content.open {
+		width: 30%;
+	}
+	#form_search {
+		background-size: cover;
+	}
+}@media all and (max-width: 768px) {
+
+	
+
+}@media all and (max-width: 680px) {
+	.slide_home {
+	    height: 215px;
+	}
+	.img_slide img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	ul.tabs li {
+	    padding: 0 20px;
+	}
+	#background_page_lh {
+	    background-size: auto 100%;
+	    height: 280px;
+	    padding-top: 110px;
+	}
+	.can_tp {
+		padding: 0 15px !important;
+	}
+	.video_gl iframe {
+	    top: -85px !important;
+	}
+	.boxtintuc {
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.tab_content {
+	    width: 100%;
+	}
+	.img_slide {
+	    height: 100%;
+	}
+	#form_search {
+		margin-bottom: 0;
+    	bottom: 0;
+	}
+
+	#background_page {
+	    padding-top: 120px;
+	    height: 300px;
+	}
+	.down {
+	    left: 47%;
+	}
+	.anh_tour {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.text_dichvu {
+	    width: 100%;
+	    float: left;
+	    padding-left: 0;
+	}
+	.khung_left_tour ul.tabs li {
+	    padding: 0;
+	    margin: 0 5px;
+	}
+	#sidebar {
+		display: none;
+	}
+	.left_khung {
+	    float: left;
+	    width: 100%;
+	    padding-right: 0;
+	    padding:  0 ;
+	}
+	.img_slide iframe {
+		height: 100%;
+	}
+	.khung_xe {
+	    width: 100%;
+	    padding: 0;
+	    padding-bottom: 20px
+	}
+	.khung_left_tour {
+	    width: 100%;
+	    float: left;
+	    padding-right: 0;
+	}
+	.khung_right_tour {
+	    float: left;
+	    width: 100%;
+	}
+	.tienich li {
+		font-size: 11px;
+	}
+	#page_1 {
+		padding-bottom: 0;
+	}
+	.date_view {
+		margin-bottom: 15px;
+	}
+	.title_hotel, .check_price {
+		margin-bottom: 0;
+	}
+	.sao_view {
+	    float: left;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.timkiem {
+		text-align: center;
+	}
+	.box_bread {
+		display: none;
+	}
+	.kl_touch {
+	    width: auto;
+	    margin: 0 auto;
+	    padding-left: 0;
+	    margin-top: 15px;
+	    float: initial;
+	    display: inline-block;
+	}
+	.title_home {
+		font-size: 24px;
+	}
+	.sea_ok {
+		width: 100%;
+	}
+	.thongtin_about {
+	    width: 33.33%;
+	    float: left;
+	    text-align: center;
+	    margin-bottom: 25px;
+	}
+	#logo {
+    	margin-left: 15px;
+    	margin-top: 15px;
+	}
+	.menu-content.open {
+	    width: 60%;
+	}
+	.tour_box, .tour_box:nth-child(4) {
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+	.off_page {
+	    padding-top: 70px;
+	    width: 100%;
+	}
+	.slider2 .slick-prev {
+		left: 15px;
+	}
+	.slider2 .slick-next {
+		right: 15px;
+	}
+	#page_4 {
+		padding: 80px 15px;
+	}
+	.accordion-inner {
+		padding-right: 15px;
+	}
+	.slider2 .slick-arrow {
+		top: 85%;
+	}
+	.fot_1 {
+	    padding-right: 15px;
+	    width: 100%;
+	}
+	.fot_2 {
+	    width: 100%;
+	    padding-right: 15px;
+	    margin-top: 30px;
+	}
+	.quote_reviews {
+	    margin: 0 15px;
+	}
+	.khoang_cach_top {
+	    padding: 30px 0;
+	}
+	#wrapper {
+	    padding-top:90px;
+	}
+	.menu-button {
+		top: 22px;
+	}
+	#navbar {
+		background: #0d3357;
+		height: 90px;
+    	top: 0;
+	}
+	.reg_mail {
+	    width: 100%;
+	    padding: 0 15px;
+	}
+	.end_left, .right_end {
+	    width: 100%;
+	    text-align: left;
+	    padding-bottom: 8px;
+	}
+}@media all and (max-width: 480px) {
+	
+}@media all and (max-width: 320px) {
+	.mobile_khung {
+	    width: 100%;
+	}
+
+}
+@media (min-width: 1600px) { 
+	#navbar {
+		padding-left: 18%;
+	}
+	.menu-content {
+		padding-right: 29%;
+	}
+
+	.img_slide {
+	    height: 1000px;
+	}
+}

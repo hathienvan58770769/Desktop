@@ -1,0 +1,42 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,900,900italic');@media (min-width: 1200px){
+    .cms-index-index .page-wrapper {
+        margin: 0 auto;
+        max-width: calc(100% - 120px);
+    }
+}
+.header .child-content .page-settings:hover .settings-content .switcher .ui-dialog{
+    opacity: 1;
+    visibility: visible;
+}
+.header .child-content .page-settings .switcher .ui-dialog{
+    opacity: 0;
+    visibility: hidden;
+}
+.products-grid .product-item-info .product-item-image .product-actions .action .icon-enlarge3{
+    vertical-align: middle;
+    padding-left: 2px;
+    line-height: 34px;
+}
+.dropdown-cart-type .minicart-wrapper > .ui-dialog, 
+.header.active-sticky {
+	webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.products-grid .product-item-info .product-item-details .detail-hover .product-item-actions .action.tocart {
+    font-size: 16px;
+}
+.products-grid .product-item-info .product-item-details .detail-hover .product-item-actions .action.tocart:before {
+    top: 4px;
+}
+body{font-family: "Poppins", arial, tahoma;font-weight: normal;
+}
+#mainMenu{font-family: "Poppins";}
+h1{font-family: "Poppins";}
+h2{font-family: "Poppins";}
+h3{font-family: "Poppins";}
+h4{font-family: "Poppins";}
+h5{font-family: "Poppins";}
+h6{font-family: "Poppins";}
+{font-family: "Poppins";}

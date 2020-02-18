@@ -1,0 +1,1132 @@
+
+html {
+  scroll-behavior: smooth;
+}
+:focus {
+    outline: 0 !important;
+    text-decoration: blink !important;
+}
+a:hover {
+    text-decoration: blink !important;
+}
+
+@font-face {
+    font-family: 'SFU';
+    src: url('../fonts/SFUIDisplay-Regular.eot');
+    src: url('../fonts/SFUIDisplay-Regular_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Regular.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Regular.svg#SFUIDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFU_TH';
+    src: url('../fonts/SFUIDisplay-Thin.eot');
+    src: url('../fonts/SFUIDisplay-Thin_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Thin.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Thin.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Thin.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Thin.svg#SFUIDisplay-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_LI';
+    src: url('../fonts/SFUIDisplay-Light.eot');
+    src: url('../fonts/SFUIDisplay-Light_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Light.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Light.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Light.svg#SFUIDisplay-Light') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_BLACK';
+    src: url('../fonts/SFUIDisplay-Black.eot');
+    src: url('../fonts/SFUIDisplay-Black_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Black.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Black.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Black.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Black.svg#SFUIDisplay-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_M';
+    src: url('../fonts/SFUIDisplay-Medium.eot');
+    src: url('../fonts/SFUIDisplay-Medium_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Medium.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Medium.svg#SFUIDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_H';
+    src: url('../fonts/SFUIDisplay-Heavy.eot');
+    src: url('../fonts/SFUIDisplay-Heavy_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Heavy.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Heavy.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Heavy.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Heavy.svg#SFUIDisplay-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_UT';
+    src: url('../fonts/SFUIDisplay-Ultralight.eot');
+    src: url('../fonts/SFUIDisplay-Ultralight_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Ultralight.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Ultralight.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Ultralight.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Ultralight.svg#SFUIDisplay-Ultralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_B';
+    src: url('../fonts/SFUIDisplay-Bold.eot');
+    src: url('../fonts/SFUIDisplay-Bold_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFU_SB';
+    src: url('../fonts/SFUIDisplay-Semibold.eot');
+    src: url('../fonts/SFUIDisplay-Semibold_.eot#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Semibold.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Semibold.ttf') format('truetype'),
+        url('../fonts/SFUIDisplay-Semibold.svg#SFUIDisplay-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    font-family: 'SFU_LI';
+    font-size: 14px;
+    color: #505050;
+    line-height:23px;
+}
+#header {
+    padding: 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    float: left;
+    width: 50%;
+}
+.hotline_time {
+    width: 50%;
+    float: left;
+    padding-top: 18px;
+}
+.hotline_top {
+    float: right;
+    margin-left: 50px;
+}
+.hotline_top img {
+    float: left;
+    padding-right: 10px;
+}
+.hotline_top b {
+    color: #FF6142;
+}
+.hotline_top p {
+    margin-bottom: 0;
+    color:#505050;
+}
+.box_top {
+    display: inline-block;
+    font-family: 'SFU_LI';
+}
+#nav {
+    background: #00b2bde3;
+    width: 100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+}
+.fa-caret-down {
+    margin-left: 5px;
+}
+#banner {
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 5;
+}
+#banner img {
+    width: 100%;
+}
+#gop_top {
+    position: relative;
+}
+.timkiem {
+    float: right;
+    position: relative;
+    width: 250px;
+}
+.timkiem input {
+    padding: 10px 50px 10px 15px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.434331);
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+}
+.timkiem input::placeholder {
+    color: white;
+}
+.timkiem button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.box_sl_dv {
+    text-align: center;
+    padding: 0 50px;
+    cursor: pointer;
+}
+.box_sl_dv:hover img {
+    filter: invert(1);
+}
+.box_sl_dv:hover p {
+    color: #FF6142;
+}
+.box_sl_dv p {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #00B2BD;
+}
+.xu_slider {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+.box_sl_dv img {
+    display: inline;
+    height: 50px;
+}
+.slider_dichvu .slick-prev:before {
+    content: url(../images/prev_1.svg);
+}
+.slider_dichvu .slick-next:before, [dir=rtl] .slick-prev:before {
+    content: url(../images/next_1.svg);
+}
+#page_1 {
+    padding: 50px 0;
+}
+.title_right {
+    position: relative;
+    margin-top: 0;
+    font-family: 'SFU_H';
+    text-transform: uppercase;
+}
+.title_right::before {
+    content: "";
+    border-bottom: 4px solid #00B2BD;
+    position: absolute;
+    bottom: -15px;
+    width: 60px;
+    left: 0;
+}
+.left_ab {
+    width: 50%;
+    float: left;
+}
+.ct_ab_right {
+    margin: 40px 0;
+}
+.more {
+    border-radius: 22.5px;
+    background: #FF6142;
+    padding: 12px 30px;
+    color: white;
+    font-family: 'SFU_B';
+    text-transform: uppercase;
+}
+.more:hover {
+    background: #00B2BD;
+}
+.more .fa-caret-right {
+    margin-left: 5px;
+}
+.right_ab {
+    width: 50%;
+    float: left;
+}
+.right_ab .video_gl {
+    width: 75% !important;
+    height: 280px!important;
+    float: right;
+    border-radius: 22px;
+}
+.right_ab_gt .video_gl {
+    width: 100% !important;
+    height: 280px!important;
+    float: right;
+    border-radius: 22px;
+}
+.slider_dichvu .slick-next, .slider_dichvu .slick-prev {
+    top: 40px;
+}
+#page_2 {
+    padding: 50px 0;
+    background: #FBFBFB;
+}
+.title_center {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    font-family: 'SFU_H';
+    text-transform: uppercase;
+}
+.title_center::before {
+    content: "";
+    width: 60px;
+    margin: 0 auto;
+    border-bottom: 4px solid #00B2BD;
+    position: absolute;
+    left: 47%;
+    bottom: -15px;
+}
+.more_blue {
+    border-radius: 22.5px;
+    background: #00B2BD;
+    padding: 12px 30px;
+    font-family: 'SFU_B';
+    color: white;
+    text-transform: uppercase;
+}
+.more_blue:hover {
+    background: #FF6142;
+}
+.more_blue .fa-caret-right {
+    margin-left: 5px;
+}
+.box_khambenh {
+    margin: 40px 0;
+    display: inline-block;
+    width: 100%;
+}
+.xoamargin {
+    margin: 0 -15px;
+}
+.khung_tinkham img {
+    width: 100%;
+}
+.khung_tinkham {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+.khung_t_tinkham {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    background: white;
+    padding: 8px;
+}
+.text_tinkham {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.text_tinkham h4 {
+    margin: 15px 0;
+    height: 20px;
+    overflow: hidden;
+}
+.title_khac {
+    height: 45px;
+    overflow: hidden;
+    line-height: 23px;
+}
+.title_xanh {
+    color:#00b2bd;
+    font-size: 16px;
+    font-family: 'SFU_B';
+}
+.title_xanh a {
+    font-family: 'SFU_B';
+    color:#00b2bd;
+    font-size: 16px;
+}
+.cn_tinkham {
+    margin-bottom: 20px;
+    height: 70px;
+    overflow: hidden;
+}
+.img_effect {
+    overflow: hidden;
+}
+.img_effect img {
+    transition: 0.5s;
+    width: 100%;
+}
+.img_effect:hover img {
+    transform: scale(1.2);
+}
+.navShadow_1 {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: black;
+}
+#page_3 {
+    padding: 50px 0;
+}
+.fa-calendar-alt {
+    color: #FF6142;
+    margin-right: 10px;
+    position: relative;
+}
+.box_tintuc {
+    margin: 40px 0;
+}
+.khung_tin {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.ct_tin {
+    padding: 15px 10px 20px 10px;
+}
+.time_tin {
+    margin-top: 20px;
+    font-size: 13px;
+    color:#505050;
+}
+.more_tatca {
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.center_dn {
+    text-align: center;
+}
+#page_4 {
+    padding: 50px 0;
+    background: #FBFBFB;
+}
+.slider_doingu {
+    margin: 30px -15px 0;
+}
+.slider_doingu .slick-prev:before {
+    content: url(../images/prev_2.svg);
+}
+.slider_doingu .slick-next:before, [dir=rtl] .slider_doingu .slick-prev:before {
+    content: url(../images/next_2.svg);
+}
+.slider_doingu .slick-next {
+    right: 15px;
+}
+.slider_doingu .slick-prev {
+    right: 70px;
+    left: inherit;
+}
+.slider_doingu .slick-next, .slider_doingu .slick-prev {
+    top: -40px;
+}
+#page_5 {
+    padding: 50px 0;
+}
+.box_avatar {
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+.box_avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+.box_danhgia {
+    margin: 0 30px;
+    padding: 50px;
+    text-align: center;
+    background: #FBFBFB;
+    border-radius: 22px;
+}
+.category li a:hover {
+    color: #FF6142;
+}
+.quote {
+    position: absolute;
+    right: -7px;
+    top: 0px;
+    width: 25px !important;
+}
+.title_bl {
+    color:#00b2bd;
+    font-family: 'SFU_B';
+}
+.ct_danhgia {
+    margin: 20px 0;
+}
+.slider_danhgia {
+    padding: 60px 0 40px 0;
+    margin: 0 -30px;
+}
+.info_mail {
+    width: 60%;
+    float: left;
+}
+.info_mail img {
+    float: left;
+    width: 53px;
+}
+.text_mail {
+    float: left;
+    padding-left: 15px;
+}
+.text_mail h4 {
+    font-family: 'SFU_B';
+    margin: 0;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.text_mail p {
+    margin: 7px 0 0 0;
+    font-family: 'SFU_LI';
+}
+#page_6 {
+    padding: 40px 0;
+    background: #00B2BD;
+    color: white;
+}
+.reg_mail {
+    float: right;
+    position: relative;
+    width: 300px;
+}
+.reg_mail input {
+    padding: 10px 50px 10px 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.434331);
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+}
+.reg_mail input::placeholder {
+    color: white;
+}
+.reg_mail button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+footer {
+    background: url(../images/footer.png);
+    padding: 50px 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.left_fot {
+    float: left;
+    width: 40%;
+}
+.center_fot {
+    float: left;
+    width: 30%;
+}
+.right_fot {
+    float: left;
+    width: 30%;
+}
+.contant_fot_1 p {
+    margin-bottom: 15px;
+}
+.contant_fot_1 p::before {
+    float: left;
+    padding-right: 10px;
+    width: 27px;
+    position: relative;
+    top: 1px;
+}
+.contant_fot_1 {
+    margin-bottom: 45px;
+    padding-right: 50px;
+}
+.contant_fot_1 p:nth-child(1)::before {
+    content: url(../images/local.svg);
+}
+.contant_fot_1 p:nth-child(2)::before {
+    content: url(../images/dt.svg);
+}
+.contant_fot_1 p:nth-child(3)::before {
+    content: url(../images/mail.svg);
+    position: relative;
+}
+.contant_fot_1 p:nth-child(4)::before {
+    content: url(../images/time.svg);
+    position: relative;
+    top: 1px;
+}
+.title_fot {
+    text-transform: uppercase;
+    font-family: 'SFU_B';
+    margin: 0;
+    margin-bottom: 30px;
+}
+.follow_us h5 {
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    font-family: 'SFU_B';
+    margin-right: 25px;
+    margin-top: 3px;
+}
+.mxh_fl {
+    float: left;
+}
+.mxh_fl img {
+    float: left;
+    margin-left: 15px;
+}
+.category li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.category li::before {
+    content: url(../images/right.svg);
+    float: left;
+    margin-right: 15px;
+}
+.category li a {
+    font-family: 'SFU_LI';
+    color: white;
+}
+#footer {
+    padding: 15px 0;
+    color: white;
+    font-family: 'SFU_LI';
+    background: #2F2F2F;
+}
+.left_end {
+    float: left;
+    width: 50%;
+}
+.left_end b {
+    color: #00B2BD;
+    font-family: 'SFU_B';
+}
+.right_end {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.right_end img {
+    margin-left: 5px;
+    margin-top: -2px;
+}
+#top {
+    position: fixed;
+    right: 27px;
+    bottom: 100px;
+    z-index: 9;
+}
+.fb_link {
+    width: 100%;
+}
+.zalo, .skype, .top {
+    margin-top: 30px;
+    text-align: center;
+}
+.scrollUp {
+  transform: translateY(-100px) !important;
+}
+#nav {
+    transition: 0.5s;
+}
+.slider_dichvu {
+    margin: 0 -60px;
+}
+.slider_dichvu .slick-prev {
+    left: -15px;
+}
+.slider_dichvu .slick-next {
+    right: -15px;
+}
+#page_con {
+    background-image: url(../images/page_t.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.lienket {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    color: #ff6142;
+    right: 0px;
+    font-family: 'SFU_B';
+}
+.lienket a {
+    color: #00b2bd;
+}
+.bread img {
+    position: relative;
+    top: -6px;
+}
+.bread {
+    float: left;
+    padding-right: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+.bread:first-child {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.bread:last-child::after {
+    display: none;
+}
+.bread:last-child a{
+    color: #ff6142;
+}
+.bread::after {
+    content: url(../images/right_ar.svg);
+    float: right;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+}
+.left_ab_gt {
+    width: 55%;
+    float: left;
+    padding-right: 70px;
+}
+#khoangcach {
+    padding: 50px 0;
+}
+.ct_right_gt {
+    margin-top: 40px;
+}
+.right_ab_gt {
+    width: 45%;
+    float: left;
+}
+.right_ab_gt img {
+    width: 100%;
+    border-radius: 20px;
+}
+.lene {
+    text-align: center;
+    margin-bottom: 60px;
+}
+#khoangcach:nth-child(2) .title_right::before {
+    left: 46%;
+}
+#khoangcach:nth-child(2) .right_ab_gt {
+    width: 45%;
+    float: left;
+}
+#khoangcach:nth-child(2) .left_ab_gt {
+    width: 55%;
+    float: right;
+    padding-right: 0;
+    padding-left: 70px;
+}
+#khoangcach:nth-child(2) .ct_right_gt {
+    margin-top: 0;
+}
+#khoangcach:nth-child(2) {
+    background: #FBFBFB;
+}
+.der_dn {
+    height: 45px;
+    overflow: hidden;
+}
+.img_dv {
+    width: 100%;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.left_dichvu {
+    width: 70%;
+    float: left;
+}
+.right_dichvu {
+    float: left;
+    width: 30%;
+    padding-top: 77px;
+    padding-left: 30px;
+}
+.title_tab {
+    float: left;
+    width: 80%;
+}
+.price_tab {
+    width: 20%;
+    float: left;
+}
+.price {
+    float: left;
+    font-family: 'SFU_LI';
+    color:#505050;
+    text-decoration: line-through;
+}
+.sale {
+    float: right;
+    color: #FF6142; 
+}
+#nhanxet {
+    padding: 20px 0;
+}
+.bongoai {
+    padding: 10px 0;
+    border-bottom: 1px solid #cccc;
+}
+.moniceContent {
+    padding-bottom: 10px;
+}
+#dichvu_khac {
+    background: #FBFBFB;
+    padding: 70px 0 50px;
+}
+.khung_dangky {
+    width: 100%;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+}
+.fixedsticky {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 45px;
+}
+.khung_dangky h2 {
+    background: #00B2BD;
+    color: white;
+    padding: 18px 60px;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 19px;
+    font-family: 'SFU_H';
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+.khung_dangky h2 img {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+}
+.shopping {
+    padding: 15px 25px;
+}
+.box_group_from {
+    padding: 10px 0;
+}
+.box_group_from label {
+    color:#00b2bd;
+    font-family: 'SFU_B';
+    margin-bottom: 10px;
+}
+.box_group_from input {
+    border: 1px solid rgba(151, 151, 151, 0.2);
+    border-radius: 4px;
+    background: none;
+    padding: 10px;
+    width: 100%;
+}
+
+#checkin {
+    background: url(../images/cal.svg) no-repeat right white;
+    background-position-x: 95%;
+}
+#box_send {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.regs {
+    border-radius: 22.5px;
+    background: #FF6142;
+    padding: 10px 40px;
+    color: white;
+    font-family: 'SFU_B';
+    text-transform: uppercase;
+    border: 0;
+}
+.regs:hover {
+    background: #00B2BD;
+}
+.regs .fa-caret-right {
+    margin-left: 5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+.nothing {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+.title_xanh a:hover {
+    color: #FF6142;
+}
+.lienket a:hover {
+    color: #337ab7;
+}
+.noidung_tintuc {
+    margin-top: 40px;
+    text-align: justify;
+}
+.noidung_tintuc img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+.avatar_news {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.left_article {
+    width: 70%;
+    padding-right: 10px;
+    float: left;
+}
+.right_article {
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+.avakhac {
+    width: 35%;
+    float: left;
+    border-radius: 4px;
+}
+.khung_text {
+    width: 65%;
+    float: left;
+    padding-left: 20px;
+}
+.tinkhacne {
+    padding: 20px 0;
+    border-bottom: 1px solid #97979736;
+    display: inline-block;
+    width: 100%;
+}
+.tinkhacne .title_khac {
+    margin: 0;
+    line-height: 20px;
+    height: 40px;
+}
+.tinkhacne .title_khac a {
+    font-size: 14px;
+}
+.tinkhacne .time_tin {
+    margin-top: 7px;
+}
+.khung_tinr {
+    margin: 30px 0;
+}
+.thuhai_right {
+    margin-top: 60px;
+}
+.der_lh {
+    margin: 30px 0 20px;
+}
+.lienhehe .box_group_from {
+    display: inline-block;
+    width: 100%;
+    padding: 3px 0;
+}
+.text_from {
+    float: left;
+    width: 25%;
+    color:#00b2bd;
+    font-family: 'SFU_B';
+    padding-top: 5px;
+}
+.inputfrom {
+    width: 75%;
+    float: left;
+}
+.inputfrom input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+}
+.inputfrom textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+}
+.left_lh {
+    width: 50%;
+    float: left;
+}
+.right_lh {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+
+.ttne {
+    padding: 15px 0;
+    border-bottom: 1px solid #cccccc78;
+    display: inline-block;
+    width: 100%;
+}
+.ttne:last-child {
+    border-bottom: 0;
+}
+.ttne::before {
+    float: left;
+    padding-right: 10px;
+    width: 27px;
+    position: relative;
+    top: 1px;
+}
+.contant_lh_1 {
+    margin-bottom: 45px;
+    padding-left: 50px;
+}
+.ttne:nth-child(1)::before {
+    content: url(../images/lh/local.svg);
+}
+.ttne:nth-child(2)::before {
+    content: url(../images/lh/phone.svg);
+}
+.ttne:nth-child(3)::before {
+    content: url(../images/lh/mail.svg);
+    position: relative;
+}
+.ttne:nth-child(4)::before {
+    content: url(../images/lh/time.svg);
+    position: relative;
+    top: 1px;
+}
+.name_lh {
+    color: #00B2BD;
+    font-family: 'SFU_B';
+    margin-bottom: 5px;
+}
+.bq_lh {
+    float: left;
+    width: 90%;
+}
+.mapsgg iframe {
+    width: 100% !important;
+    height: 350px !important;
+}
+.menu__sub-menu__item a:hover, .active_sub {
+    color: #ff6142 !important;
+}
+.mxh_fl img, .share_mxh img {
+    transition: 0.2s;
+}
+.mxh_fl img:hover, .share_mxh img:hover {
+    transform: scale(1.2);
+}
+.share_mxh {
+    float: right;
+    margin-top: 30px;
+}
+.share_mxh img {
+    margin-left: 5px;
+}
+.logo img {
+    padding-top: 5px;
+}
+.resurt_search {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.resurt_search span {
+    color: red;
+}
+.modalsp {
+    max-width: 350px;
+}
+.modalsp  .modal-content {
+    border-radius: 20px;
+}
+#mobile {
+    display: none;
+}
+.mail_reg {
+    width: 40%;
+    float: left;
+}
+.text_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.center_text {
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+.center_text h2 {
+    margin: 20px 0;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.center_text h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'SFU_H';
+    font-size: 64px;
+    color:#ff6142;
+}
+.center_text h3 {
+    color:#00b2bd;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
