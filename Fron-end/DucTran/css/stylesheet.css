@@ -1,0 +1,150 @@
+.slider2 {
+    position: relative;
+    z-index: 200;
+    padding: 0 0px;
+    margin: 4rem auto;
+    width: 100%;
+}
+
+.slider2 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-family: monospace;
+    font-size: 5rem;
+    z-index: 300;
+    outline: none;
+}
+
+.slider2 .slick-prev {
+    left: 7%;
+}
+
+.slider2 .slick-next {
+    right: 7%;
+}
+
+.slider2 .item.slick-slide {
+    margin: 0;
+    width: 720px;
+    height: 457px !important;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+    position: relative;
+}
+
+.slider2 .slick-slide:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .43);
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+}
+
+.slider2 .item.slick-slide.slick-center+.slick-slide {
+    -webkit-transform: scale(0.8) translate(-250px);
+    transform: scale(0.8) translate(-250px);
+    z-index: 10;
+}
+
+.slider2 .slick-prev:before,
+.slider2 .slick-next:before {
+    display: none;
+}
+
+.slider2 .item.slick-slide.slick-active {
+    -webkit-transform: scale(0.8) translate(250px);
+    transform: scale(0.8) translate(250px);
+}
+
+.slider2 .item.slick-slide.slick-center {
+    /* margin: 0 -10%; */
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    z-index: 30;
+    transition: 1.5s;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.slider2 .item.slick-slide.slick-center h4,
+.slider2 .item.slick-slide.slick-center p {
+    display: block;
+}
+
+.slider2 .slick-center:after {
+    opacity: 0;
+}
+
+.slider2 .item.slick-slide.slick-center .img_car {
+    height: auto;
+}
+
+.slider2 .img_car {
+    width: 720px;
+    height: 457px;
+    align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+.slider2 .item {
+    margin: 0;
+}
+
+.slider2 .item:hover {
+    cursor: pointer;
+}
+
+.slider2 .item .title_link_du_an {
+    margin-top: -105px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'SVN_A_B';
+    color: #FFFFFF;
+}
+
+.slider2 .item a.more_da {
+    background: none;
+}
+
+.slider2 .item a.more_da img.button_more_du_an {
+    margin-left: 652px;
+    margin-top: -58px;
+    width: 68px;
+    height: 75px;
+}
+
+
+/*  */
+
+#page_6 {
+    padding: 40px 0;
+    background: #4A4A4A;
+}
+
+.img_doitac {
+    margin: 0 60px;
+}
+
+.img_doitac img {
+    width: 100%;
+}
+
+.slider_doitac {
+    margin: 0 -15px;
+}
